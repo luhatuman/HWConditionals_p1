@@ -23,5 +23,19 @@ public class Main {
         if (person >= 24) {
             System.out.println("Человек окончил университет и ему пора искать первую работу");
         }
+
+        //Task 3
+        System.out.println();
+        System.out.println("Task 3");
+        byte seat = 60; //Вводим текущее число пассажиров занимающих места
+        if (seat >= 0 && seat <= 60) {
+            System.out.println("В вагоне есть сидячие места");
+        }
+        if (seat > 60 && seat <= 102) {
+            System.out.println("В вагоне только стоячие места");
+        }
+        if (seat > 102) {
+            System.out.println("Мест нет!");
+        }
     }
 }
