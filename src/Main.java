@@ -61,5 +61,19 @@ public class Main {
                 System.out.println("Человек окончил университет и ему пора искать первую работу");
             }
         }
+
+        //Task 6
+        System.out.println();
+        System.out.println("Task 6");
+        byte seat_v2 = 89; //Вводим текущее число пассажиров занимающих места
+        if (seat_v2 >= 0 && seat_v2 <= 60) {
+            System.out.println("В вагоне есть " + (60 - seat_v2) + " сидячих мест(а)");
+        } else {
+            if (seat_v2 > 60 && seat_v2 <= 102) {
+                System.out.println("В вагоне только " + (102 - seat_v2) + " стоячих мест(а)");
+            } else {
+                    System.out.println("Мест нет!");
+            }
+        }
     }
 }
