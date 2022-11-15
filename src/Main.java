@@ -37,5 +37,15 @@ public class Main {
         if (seat > 102) {
             System.out.println("Мест нет!");
         }
+
+        //Task 4
+        System.out.println();
+        System.out.println("Task 4");
+        byte userAge_v2 = 19;
+        if (userAge_v2 >= 18) {
+            System.out.println("Поздравляю с совершеннолетием!");
+        } else {
+            System.out.println("Возраст совершеннолетия еще не наступил, нужно немного подождать");
+        }
     }
 }
