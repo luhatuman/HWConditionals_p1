@@ -91,7 +91,7 @@ public class Main {
         //Task 8
         System.out.println();
         System.out.println("Task 8");
-        byte ageOfTheChildren = 2; //Вводим возраст человека
+        byte ageOfTheChildren = 2; //Вводим возраст ребенка
         if (ageOfTheChildren < 5) {
             System.out.println("Ребенок не может кататься на атракционе");
         } else if (ageOfTheChildren >= 5 && ageOfTheChildren < 14) {
@@ -99,5 +99,19 @@ public class Main {
         } else if (ageOfTheChildren >= 14) {
             System.out.println("Ребенок может кататься без сопровождения взрослого");
         }
+
+        //Task 9
+        System.out.println();
+        System.out.println("Task 9");
+        int one = 50;
+        int two = 200;
+        int free = 15;
+                if (one > two && one > free) {
+                    System.out.println(one + " - Самое большое число");
+                    } else if (two > one && two > free) {
+                        System.out.println(two + " - Самое большое число");
+                        } else if (free > one && free > two) {
+                            System.out.println(free + " - Самое большое число");
+                }
         }
     }
