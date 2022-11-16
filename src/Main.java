@@ -73,5 +73,19 @@ public class Main {
             } else {
                     System.out.println("Мест нет!");
             }
+
+        //Task 7
+        System.out.println();
+        System.out.println("Task 7");
+        byte ageOfThePearson = 2; //Вводим возраст человека
+        if (ageOfThePearson >= 2 && ageOfThePearson <= 6) {
+            System.out.println("Если возрасл человека равен " + ageOfThePearson + ", то ему нужно ходить в детский сад");
+        } else if (ageOfThePearson >= 7 && ageOfThePearson <= 18) {
+            System.out.println("Если возрасл человека равен " + ageOfThePearson + ", то ему нужно ходить в школу");
+        } else if (ageOfThePearson > 18 && ageOfThePearson <= 24) {
+            System.out.println("Если возрасл человека равен " + ageOfThePearson + ", то его место в университете");
+        } else if (ageOfThePearson > 24) {
+            System.out.println("Если возрасл человека равен " + ageOfThePearson + ", то ему пора ходить на работу");
+        }
         }
     }
