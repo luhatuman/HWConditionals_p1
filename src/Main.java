@@ -87,5 +87,17 @@ public class Main {
         } else if (ageOfThePearson > 24) {
             System.out.println("Если возрасл человека равен " + ageOfThePearson + ", то ему пора ходить на работу");
         }
+
+        //Task 8
+        System.out.println();
+        System.out.println("Task 8");
+        byte ageOfTheChildren = 2; //Вводим возраст человека
+        if (ageOfTheChildren < 5) {
+            System.out.println("Ребенок не может кататься на атракционе");
+        } else if (ageOfTheChildren >= 5 && ageOfTheChildren < 14) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        } else if (ageOfTheChildren >= 14) {
+            System.out.println("Ребенок может кататься без сопровождения взрослого");
+        }
         }
     }
